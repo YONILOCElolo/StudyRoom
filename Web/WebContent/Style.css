@@ -1,0 +1,326 @@
+@charset "UTF-8";
+.navbar {
+	background-color: rgba(0, 0, 0, 0.4);
+	height: 38px;
+	z-index: 6;
+}
+
+.navbar a {
+	color: #fff;
+	opacity: 1;
+}
+
+.nav-link:hover, .nav-link:active {
+	background-color: red;
+}
+
+.navbar-brand a {
+	margin-right: 20px;
+	padding-top: 7px;
+	color: red;
+}
+
+.dropdown-menu {
+	background-color: rgba(255, 0, 0, 0.5);
+	border: 2px solid A9A9A9;
+	z-index: 6;
+}
+
+.headImg {
+	width: 100%;
+	height: 730px;
+}
+
+.headImgBox {
+	margin-top: -65px;
+	height: 650px;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+	background-position: center 50%;
+	background-repeat: no-repeat;
+	margin-bottom: 460px;
+	z-index: 1;
+}
+
+.headImgBox .scene {
+	width: 100%;
+	text-align: center;
+	font-size: 100px;
+	font-weight: 200;
+	color: #fff;
+	position: absolute;
+	left: 0px;
+	top: 160px;
+	font-family: "Sigmar One", Arial;
+	text-shadow: 0px 2px 2px #47456d;
+}
+
+.headImgBox .scene span {
+	transform: matrix(1, 0, 0, 1, 0, 0);
+	-webkit-transform: matrix(1, 0, 0, 1, 0, 0);
+	text-shadow: 1px 1px 0px #ff3f1a, -1px -1px 0px #00a7e0;
+}
+
+.ImgBox {
+	margin-top: -70px;
+	height: 100%;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+	background-position: center 50%;
+	background-repeat: no-repeat;
+	margin-bottom:0px;
+	z-index: 1;
+}
+
+.ImgBox .scene {
+	width: 100%;
+	text-align: center;
+	font-size: 100px;
+	font-weight: 200;
+	color: #fff;
+	position: absolute;
+	left: 0px;
+	top: 160px;
+	font-family: "Sigmar One", Arial;
+
+}
+
+.ImgBox .scene span {
+	transform: matrix(1, 0, 0, 1, 0, 0);
+	-webkit-transform: matrix(1, 0, 0, 1, 0, 0);
+	text-shadow: 1px 1px 0px #ff3f1a, -1px -1px 0px #00a7e0;
+}
+.Img {
+	width: 100%;
+	height: 690px;
+}
+
+.welImgBox {
+	margin-top: -171px;
+	height: 100%;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+	background-position: center 50%;
+	background-repeat: no-repeat;
+	margin-bottom:0px;
+	z-index: 1;
+}
+
+.welImgBox .scene {
+	width: 100%;
+	text-align: center;
+	font-size: 22px;
+	font-weight: 200;
+	color: #000000;
+	position: absolute;
+	left: 0px;
+	top: 160px;
+	font-family: "Sigmar One", Arial;
+}
+
+.welImgBox .scene span {
+	transform: matrix(1, 0, 0, 1, 0, 0);
+	-webkit-transform: matrix(1, 0, 0, 1, 0, 0);
+	text-shadow: 1px 1px 0px #ff3f1a, -1px -1px 0px #00a7e0;
+}
+.welImg {
+	width: 100%;
+	height: 690px;
+}
+.h-information {
+	overflow: hidden;
+	text-align: center;
+	width: 80%;
+	height: 650px;
+	margin: auto;
+	position: relative;
+	top: -270px;
+	padding: 40px 0;
+	font-size: 16px;
+	opacity: 0.98;
+	background: rgba(240, 248, 255, 0.6);
+	border-radius: 5px;
+	z-index: 2;
+	animation: b 1s ease-out;
+	-webkit-animation: b 1s ease-out;
+	text-align: center;
+}
+
+.h-information h2 {
+	margin-top: 20px;
+	font-size: 18px;
+	font-weight: 700;
+	margin-bottom: 16px;
+}
+
+.h-litlletitle {
+	text-shadow: 1px 1px 0px #3CB371, -1px -1px 0px #00a7e0;
+	color: white;
+	font-size: 24px;
+	background: rgba(240, 128, 128, 0.3);
+}
+
+.h-litlletitle:hover {
+	font-size: 26px;
+}
+
+.d-block {
+	width: 75px;
+	height: 445px;
+	overflow: hidden;
+}
+
+.newnavbar {
+	z-index: 6;
+	text-align: center;
+	font-size: 30px;
+}
+
+.navbar-brand-fenqu {
+	background: rgba(240, 128, 128, 0.2);
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+}
+
+.navbar-brand-fenqu a {
+	font-weight: 500;
+	text-shadow: 2px 1px 0px #3CB371, -1px -1px 0px #00a7e0;
+	font-size: 24px;
+	color: white;
+}
+
+.navbar-brand-fenqu a:hover {
+	font-size: 26px;
+}
+
+.nav-link-fenqu:hover {
+	background-color: #20B2AA;
+}
+
+.nav-link-fenqu {
+	color: black;
+}
+
+.mid-fenqu {
+	font-size: 20px;
+}
+
+.fenqu {
+	background-color: rgba(255, 250, 250, 0.9);
+}
+
+.title-fenqu {
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 42px;
+}
+
+.buything {
+	background-color: rgba(255, 0, 0, 0.8);
+	color: white;
+	padding-left: 30px;
+	font-size: 26px;
+	font-weight: 500;
+}
+
+.fenxu-study {
+	width: 370px;
+	height: 270px;
+	position: relative;
+}
+
+.fenxu-studybook {
+	width: 260px;
+	height: 270px;
+	position: relative;
+}
+
+.fenxu-study:hover {
+	transform: scale(1.2);
+	z-index: 999;
+}
+
+.font {
+	text-align: center;
+	font-weight: 600;
+	font-size: 21px;
+	margin-top: 6px;
+	color: black;
+}
+
+.footer {
+	margin-top: 80px;
+	bottom: 0;
+	width: 100%;
+	/* Set the fixed height of the footer here */
+	height: 70px;
+	background-color: #343a40;
+}
+
+.text-center {
+	font-size: 19px;
+	line-height: 70px;
+	opacity: 0.8;
+	color: white;
+	margin: auto;
+}
+.text {
+	font-size: 18px;
+	opacity: 0.8;
+	color: blue;
+	margin: auto;
+	text-decoration:underline;
+}
+.text-dec {
+	font-size: 25px;
+	opacity: 0.8;
+	color: white;
+	margin: auto;
+}
+<!--寮规--> /*鑳屾櫙灞�*/ 
+#popLayer {
+	display: none;
+	background-color: #B3B3B3;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 10;
+	-moz-opacity: 0.8;
+	opacity: .80;
+	filter: alpha(opacity = 80); /* 鍙敮鎸両E6銆�7銆�8銆�9 */
+}
+/*寮瑰嚭灞�*/
+#popBox {
+	display: none;
+	background-color: #FFFFFF;
+	z-index: 11;
+	width: 200px;
+	height: 200px;
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	margin: auto;
+}
+
+#popBox .close {
+	text-align: right;
+	margin-right: 5px;
+	background-color: #F8F8F8;
+}
+.buttn{
+		margin-bottom:10px;
+}
+/*鍏抽棴鎸夐挳*/
+#popBox .close a {
+	text-decoration: none;
+	color: #2D2C3B;
+}
+
